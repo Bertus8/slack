@@ -5,9 +5,16 @@
 @import "./utilities/responsive";
 
 //block - layouts
-@import "./block/grid";
+@import "./block/navbar";
+@import "./block/hero";
+@import "./block/about";
+@import "./block/section1";
+@import "./block/section2";
+@import "./block/contact";
+@import "./block/footer";
+@import "./block/footerSection";
 
 //base
-@import "./base/typo";
+@import "./base/normalize";
 @import "./base/reset";
 @import "./base/normalize";

@@ -1,0 +1,143 @@
+.contact{
+    width:100%;
+    background-color:blanchedalmond;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    padding: 20px;
+    h1{
+        text-align: center;
+        padding:20px;
+    }
+}
+.contact-container{
+    flex-direction:column;
+    @include desktop{
+    display:flex;
+    justify-content:center;
+    flex-direction:row;
+}
+}
+.contact-block{
+    width:300px;
+    margin:60px;
+    h3{
+        border:2px;
+        line-height: 2.0rem;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    p{
+        line-height: 1.5rem;  
+    }
+}
+.box-number{
+    width:40px;
+    height:40px;
+    background-color: blueviolet;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    p{
+        font-size:20px;
+        border: 1px;
+        color:white;
+
+    }
+}
+.container-card{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    @include desktop{
+        flex-direction:row;
+        flex-wrap: wrap;
+    }
+
+    img{
+        padding:10px;
+    }
+    h4{
+        padding:10px;
+        font-size: 12px;
+        color:grey;
+    }
+    p{
+        padding:10px;
+        font-size: 20px;
+        line-height: 1.5rem;
+    }
+}
+.box-card{
+    margin:20px;
+    width:280px;
+    height: 400px;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    a{
+        text-transform:uppercase;
+        padding:10px;
+        font-size: 14px;
+        color:rgb(0, 153, 255);
+        text-decoration:none;
+        text-align:unset;
+        margin-top: 18px;
+
+    }
+}
+.box-card1{
+    margin:20px;
+    width:280px;
+    height: 400px;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    a{
+        text-transform:uppercase;
+        padding:10px;
+        font-size: 14px;
+        color:rgb(0, 153, 255);
+        text-decoration:none;
+        text-align:unset;
+        margin-top: 40px;
+
+    }
+}
+.box-card2{
+    margin:20px;
+    width:280px;
+    height: 400px;;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    a{
+        text-transform:uppercase;
+        padding:10px;
+        font-size: 14px;
+        color:rgb(0, 153, 255);
+        text-decoration:none;
+        text-align:unset;
+        margin-top: 18px;
+
+    }
+}
+.box-card3{
+    margin:20px;
+    width:280px;
+    height: 400px;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    a{
+        text-transform:uppercase;
+        padding:10px;
+        font-size: 14px;
+        color:rgb(0, 153, 255);
+        text-decoration:none;
+        text-align:unset;
+        margin-top: 40px;
+
+    }
+}

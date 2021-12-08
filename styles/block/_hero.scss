@@ -1,0 +1,95 @@
+.hero {
+    background-color: blanchedalmond;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px;
+    @include desktop{
+        display: flex;
+        flex-direction: row;   
+    }
+    p{
+        padding: 10px;
+        line-height: 1.5rem;
+        @include desktop{
+            width:400px;
+        }
+    }
+    
+}
+.hero-title {
+    margin-top: 50px;
+    font-size: 2,75rem;
+    color:black;
+    align-items: left;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: -1px;
+    padding:20px
+  
+}
+.hero-item1{
+    background-color: purple;
+    border-radius: 5px;
+    font-size: 16px;
+    color:white;
+    padding: 20px;
+    text-transform: uppercase;
+    width:320px;
+    border:inherit;
+    margin:10px;
+    
+}
+.hero-item2{
+    background-color: rgb(0, 204, 255);
+    border:inherit;
+    border-radius: 5px;
+    font-size: 16px;
+    color:white;
+    padding: 20px;
+    text-transform: uppercase;
+    width:320px;
+    height: 62px;
+    margin:10px;
+    display: flex;
+    align-items: center;
+}
+.icon-google{
+    background-color: white;
+    width:40px;
+    margin:10px;
+}
+.hero-img{
+    img{
+        width:340px;
+        height:100%;
+        @include desktop{
+            max-width: 100%;
+            height:100%;
+            margin-top:200px;
+            width: 550px;
+    
+        }
+    }
+  
+}
+.hero2{
+    background-color: blanchedalmond;
+    margin:0;
+}
+.hero-icon{
+    margin:0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    
+ 
+}
+
+.hero-item3{
+    padding: 20px;
+  
+
+
+}

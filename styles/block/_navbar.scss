@@ -1,0 +1,75 @@
+nav {
+    background-color:blanchedalmond;
+    color:blanchedalmond;
+    width: 100%;
+    height:200px;
+    top:0;
+    left: 0px;
+    z-index:1;
+    @include desktop{
+    position:fixed;
+    height: 120px;
+    }
+  }
+  
+  .navbar-menu {
+    height: 80px;
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap ;
+    align-items: center;
+    list-style-type: none;
+    margin-left: 10px;
+    @include large{
+      overflow-x: hidden; 
+      height: 160px;
+     }
+
+  }
+  
+  .navbar-item {
+    font-size: 16px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+  }
+  .navbar-item1 {
+    font-size: 20px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+  
+  }
+  .navbar-item2 {
+    background-color: blanchedalmond;
+    font-size: 16px;
+    color:purple;
+    border-color: purple;
+    padding: 20px;
+    margin-left:10px;
+    text-transform: uppercase;
+  }
+  .navbar-item3{
+    background-color: purple;
+    border-radius: 5px;
+    font-size: 16px;
+    color:white;
+    padding: 20px;
+    margin-left:10px;
+    text-transform: uppercase;
+    border:inherit;
+
+  }
+  
+  .navbar-item img {
+  width: 180px;  
+  height: 80px;
+  margin: 0px;
+  
+  }
+  
+  .navbar-link {
+    text-decoration: black;
+    color:black;
+    
+  }
+  
